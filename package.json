@@ -5,11 +5,14 @@
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
-    "npm":"6.9.0"
+    "npm":"6.9.0",
+    "build":"cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start":"node server.js"
   },
   "scripts": {
-    "start": "nodemon --watch backend --exec babel-node backend/server.js",
-    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
   },
   "author": "",
   "license": "ISC",
