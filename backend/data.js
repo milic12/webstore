@@ -15,7 +15,7 @@ export default {
         _id:'2',
         name:'Tailored Fit Grey Suit',
         category:'Shirts',
-        image:'/images/zoraja4.png',
+        image:'/images/d3.jpg',
         price:1350,
         brand:'Z-Suit',
         rating:4.9,
