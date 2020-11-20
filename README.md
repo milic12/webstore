@@ -1,4 +1,3 @@
-# webstore
-mern stack webstore
-
-<img src="/images/Taxi1.png" alt="Taxi1"/>
+<h1>Webstore</h1>
+<h2>Built with Mern Stack </h2>
+<h3>Pushed on master branch</h3>
